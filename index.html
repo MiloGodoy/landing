@@ -11,23 +11,24 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400&family=Merriweather+Sans:ital@0;1&family=Montserrat+Alternates:wght@300;400&family=Open+Sans:wght@300;400;500;700&family=Quicksand:wght@300;500;700&family=Roboto&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f76c09d3eb.js" crossorigin="anonymous"></script>
     <title>Ramiro Godoy</title>
    
 </head>
 <body>
-        <header>
-            <p>Ramiro Godoy</p>
-            <p>email</p>
-            <nav>
-                <ul>
+        <header class="header">
+            <img class="header--img" src="./milo-logo-b&w.png" alt="Logo de Milo">
+            <a href="./">Home</a>
+            <nav class="header--nav">
+                <ul class="header--list">
                     <li>
-                        <a href="./contact.html">Contact</a>
+                        <a href="./contact.html">Contacto</a>
                     </li>
                     <li>
                         <a href="./blog.html">Blog</a>
                     </li>
                     <li>
-                        <a href="./projects.html">Projects</a>
+                        <a href="./projects.html">Projectos</a>
                     </li>
                     <li>
                         <a href="./about.html">About me</a>
@@ -35,20 +36,52 @@
                 </ul>
             </nav>
         </header>
-        <main>
-            <img src="./milo_ph_2.jpeg" alt="foto">
-            <h2>Ramiro Godoy - portafolio</h2>
-            <p>Soy frontend developer</p>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-                <li>React</li>
+        <main class="main">
+            <div class="main--container">
+                <div class="img-container">
+                    <img class="main--img" src="./milo_ph_2.jpeg" alt="foto">
+                </div>
+                <div class="main--info">
+                    <h2 class="info--name">Ramiro Godoy Frontend Developer</h2>
+                    <p class="info--description">Soy desarrollador web, ingeniero en electrónica y un apasionado de la tecnología</p>
+                    <div class="main--links">
+                        <a href="./contact.html">Contacto</a>
+                        <a href="./about.html">Acerca de</a>
+                    </div>
+                    <div class="main--social-media">
+                        <h2>Sigueme en </h2>
+                        <ul>
+                            <li>
+                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <ul class="logos">
+                <li class="logos--imagenes">
+                    <img class="logos--imagenes_html" src="./html-logo.png" alt="HTML">
+                    <p>HTML</p>
+                </li>
+                <li class="logos--imagenes">
+                    <img class="logos--imagenes_css" src="./css-logo.png" alt="CSS">
+                    <p>CSS</p>
+                </li>
+                <li class="logos-imagenesJS">
+                    <img class="logos--imagenes_js" src="./js-logo-png-2.png" alt="JavaScript">
+                    <p>JavaScript</p>
+                </li>
+                <li class="logos--imagenes">
+                    <img class="logos--imagenes_react" src="./react-logo.png" alt="React">
+                    <p>React</p>
+                </li>
             </ul>
         </main>
         <footer>
-            Contacto: +595983757264
-            mail: milogodoy@hotmail.com
+            <p class="footer--text">Contacto: +595983757264</p> 
+            <p class="footer--text">email: milogodoy@hotmail.com</p> 
         </footer>
     
     

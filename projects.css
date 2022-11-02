@@ -1,0 +1,32 @@
+.project-list li {
+    width: 400px;
+    height: 300px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 13.5px;
+}
+
+.project--name {
+    padding-left: 100px;
+    color: gold;
+}
+
+.project--img {
+    width: 100%;
+    height: 165px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.project--description {
+    padding: 10px;
+}
+
+.project--technology {
+    padding: 10px;
+}
+
+.project--enlace {
+    padding-left: 50px;
+   
+}

@@ -10,8 +10,136 @@ body{
    font-family: "lato", sans-serif;
 }
 
+ul {
+   list-style: none;
+}
 
+.header {
+   display: flex;
+   justify-content: space-between;
+   padding: 15px;
+}
+
+.header--img {
+   width: 60px;
+   height: 50px;
+}
+.header--list {
+   display: flex;
+   justify-content: space-between;
+   width: 300px;
+}
+
+.header--list li a:hover {
+   text-decoration: underline;
+}
+
+.header a:hover {
+   text-decoration: underline;
+}
 a {
-   font-size: 20px;
-   margin: 15px;
+   text-decoration: none;
+   color: yellow;
+}
+
+.main--container {
+   display: flex;
+   width: 75%;
+   margin: 20px auto;
+   justify-content: space-between;
+}
+
+.main--img {
+   width: 165px;
+   height: 200px;
+   border-radius: 15px;
+   padding: 10px;
+}
+
+.main--info {
+   width: 70%;
+}
+
+.info--name {
+   font-size: 40px;
+   margin-bottom: 15px;
+}
+
+.info--description {
+   font-size: 18px;
+   margin-bottom: 10px;
+}
+
+.main--links {
+   margin: 20px 0;
+}
+
+.main--links a {
+   padding: 10px 20px;
+   color: white;
+   border-radius: 10px;
+   background-color: black;
+}
+
+.main--social-media {
+   display: flex;
+   align-items: center;
+}
+
+.main--social-media h2 {
+   margin-right: 16px;
+   margin-right: 10px;
+}
+
+.logos {
+   margin-top: 50px;
+   display: flex;
+   align-items: center;
+   width: 75%;
+   margin-left: 70px;
+   justify-content: space-between;
+}
+
+.logos--imagenes {
+   text-align: center;
+   margin-bottom: 30px;
+}
+.logos--imagenes_html {
+   width: 100px;
+   height: 100px;
+   border-radius: 15px;
+   padding: 10px;
+}
+.logos--imagenes_css {
+   width: 100px;
+   height: 100px;
+   border-radius: 15px;
+   padding: 10px;
+}
+
+.logos-imagenesJS {
+   width: 100px;
+   height: 100px;
+   border-radius: 15px;
+   padding: 10px;
+   margin-bottom: 60px;
+}
+
+.logos--imagenes_js {
+   width: 100px;
+   height: 100px;
+   border-radius: 15px;
+   padding: 10px;
+}
+
+.logos--imagenes_react {
+   width: 100px;
+   height: 100px;
+   border-radius: 15px;
+   padding: 10px;
+}
+
+.footer--text {
+   padding-left: 10px;
+   font-size: 13px;
 }
