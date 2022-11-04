@@ -7,7 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/media-queries.css">
+    <link rel="stylesheet" href="./styles/style-tablet.css" media="(min-width: 740px)"/>
+    <link rel="stylesheet" href="./styles/style-computer.css" media="(min-width: 1200px)"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Lato:ital,wght@0,100;0,300;0,400;0,700;1,400&family=Merriweather+Sans:ital@0;1&family=Montserrat+Alternates:wght@300;400&family=Open+Sans:wght@300;400;500;700&family=Quicksand:wght@300;500;700&family=Roboto&display=swap" rel="stylesheet">
@@ -17,21 +20,22 @@
 </head>
 <body>
         <header class="header">
-            <img class="header--img" src="./milo-logo-b&w.png" alt="Logo de Milo">
-            <a href="./">Home</a>
+            <img class="header--img" src="./Images/milo-logo-b&w.png" alt="Logo de Milo">
+            
             <nav class="header--nav">
                 <ul class="header--list">
                     <li>
+                        <a href="./index.html">Home</a>
+                    </li>
+                    <li>
                         <a href="./contact.html">Contacto</a>
                     </li>
+                    
                     <li>
-                        <a href="./blog.html">Blog</a>
+                        <a href="./projects.html">Proyectos</a>
                     </li>
                     <li>
-                        <a href="./projects.html">Projectos</a>
-                    </li>
-                    <li>
-                        <a href="./about.html">About me</a>
+                        <a href="./about.html">About</a>
                     </li>
                 </ul>
             </nav>
@@ -39,7 +43,7 @@
         <main class="main">
             <div class="main--container">
                 <div class="img-container">
-                    <img class="main--img" src="./milo_ph_2.jpeg" alt="foto">
+                    <img class="main--img" src="./Images/milo_ph_2.jpeg" alt="foto">
                 </div>
                 <div class="main--info">
                     <h2 class="info--name">Ramiro Godoy Frontend Developer</h2>
@@ -53,28 +57,29 @@
                         <ul>
                             <li>
                                 <a href=""><i class="fa-brands fa-twitter"></i></a>
-                                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.linkedin.com/in/ramiro-godoy/"><i class="fa-brands fa-linkedin"></i></a>
                                 <a href=""><i class="fa-brands fa-instagram"></i></a>
                             </li>
                         </ul>
                     </div>
                 </div>
             </div>
+            <h2 class="title">Principales tecnologías</h2>
             <ul class="logos">
                 <li class="logos--imagenes">
-                    <img class="logos--imagenes_html" src="./html-logo.png" alt="HTML">
+                    <img class="logos--imagenes_html" src="./Images/html-logo.png" alt="HTML">
                     <p>HTML</p>
                 </li>
                 <li class="logos--imagenes">
-                    <img class="logos--imagenes_css" src="./css-logo.png" alt="CSS">
+                    <img class="logos--imagenes_css" src="./Images/css-logo.png" alt="CSS">
                     <p>CSS</p>
                 </li>
-                <li class="logos-imagenesJS">
-                    <img class="logos--imagenes_js" src="./js-logo-png-2.png" alt="JavaScript">
+                <li class="logos--imagenes">
+                    <img class="logos--imagenes_js" src="./Images/js-logo-png-2.png" alt="JavaScript">
                     <p>JavaScript</p>
                 </li>
                 <li class="logos--imagenes">
-                    <img class="logos--imagenes_react" src="./react-logo.png" alt="React">
+                    <img class="logos--imagenes_react" src="./Images/react-logo.png" alt="React">
                     <p>React</p>
                 </li>
             </ul>

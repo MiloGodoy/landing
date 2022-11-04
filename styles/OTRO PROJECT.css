@@ -1,14 +1,23 @@
+.project-list div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
 .project-list li {
     width: 400px;
     height: 300px;
+
     border: 1px solid black;
     border-radius: 15px;
-    font-size: 13.5px;
+    font-size: 12px;
+   
 }
 
 .project--name {
     padding-left: 100px;
     color: gold;
+    font-size: 18px;
 }
 
 .project--img {
@@ -27,6 +36,6 @@
 }
 
 .project--enlace {
-    padding-left: 50px;
+    padding-left: 20px;
    
 }

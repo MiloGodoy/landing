@@ -4,48 +4,122 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./projects.css">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/projects.css">
+    <link rel="stylesheet" href="./styles/project-tablet.css" media="(min-width: 740px)"/>
     <script src="https://kit.fontawesome.com/f76c09d3eb.js" crossorigin="anonymous"></script>
     <title>Ramiro Godoy - Projects</title>
 </head>
 <body>
     <header class="header">
-        <img class="header--img" src="./milo-logo-b&w.png" alt="Logo de Milo">
-        <a href="./index.html">Home</a>
+        <img class="header--img" src="./Images/milo-logo-b&w.png" alt="Logo de Milo">
         <nav class="header--nav">
             <ul class="header--list">
                 <li>
-                    <a href="./contact.html">Contacto</a>
+                    <a href="./index.html">Home</a>
                 </li>
                 <li>
-                    <a href="./blog.html">Blog</a>
+                    <a href="./contact.html">Contacto</a>
                 </li>
                 <li>
                     <a href="./projects.html">Proyectos</a>
                 </li>
                 <li>
-                    <a href="./about.html">About me</a>
+                    <a href="./about.html">About</a>
                 </li>
             </ul>
         </nav>
     </header>
     <main>
-        <ul class="project-list">
-            <li>
-                <img class="project--img" src="./Images/Platziconf-merch.jpg" alt="Imagen del proyecto">
-                <p class="project--name">Platziconf-merch</p>
-                <p class="project--description">Proyecto: Tienda online realizada en React. Se utilizan hooks, se implementa API de Paypal, API de Google maps. Deploy con Github Actions, integración con Firebase. Configuración de SEO</p>
-                <span class="project--technology">Html</span>
-                <span class="project--technology">CSS</span>
-                <span class="project--technology">JavaScript</span>
-                <span class="project--technology">React</span>
-                <div>
-                    <a class="project--enlace" href="https://platziconf-merch-367200.firebaseapp.com/">Ver aquí</a>
-                    <a class="project--enlace" href="https://github.com/MiloGodoy/platziconf-merch">Repositorio <i class="fa-brands fa-github"></i></a>
-                </div>
-            </li>
+        <h2 class="main--title">Proyectos</h2>
+        <ul class="project--list">
+            <div>
+                <li class="project-1">
+                    <img class="project--img" src="./Images/Platziconf-merch.jpg" alt="Imagen del proyecto">
+                    <p class="project--name">Platziconf-merch</p>
+                    <p class="project--description">Proyecto: Tienda online realizada en React. Se utilizan hooks, se implementa API de Paypal, API de Google maps. Deploy con Github Actions, integración con Firebase. Configuración de SEO</p>
+                    <span class="project--technology">Html</span>
+                    <span class="project--technology">CSS</span>
+                    <span class="project--technology">JavaScript</span>
+                    <span class="project--technology">React</span>
+                    <div>
+                        <a class="project--enlace" href="https://platziconf-merch-367200.firebaseapp.com/">Ver aquí</a>
+                        <a class="project--enlace" href="https://github.com/MiloGodoy/platziconf-merch">Repositorio <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </li>
+                <li class="project-2">
+                    <img class="project--img" src="./Images/tiendapy.jpeg" alt="Imagen del proyecto">
+                    <p class="project--name">Tiendasite Py</p>
+                    <p class="project--description">Proyecto: Tienda online realizada en React y Next.js. Se utilizó hooks, se implementa la API de un ecomerce. Implementación de Google Analytics con Next.js. Deploy con Vercel. Configuración de SEO en Next.js</p>
+                    <span class="project--technology">Html</span>
+                    <span class="project--technology">CSS</span>
+                    <span class="project--technology">React</span>
+                    <span class="project--technology">Next.js</span>
+                    <div>
+                        <a class="project--enlace" href="https://tiendapy.site/">Ver aquí</a>
+                        <a class="project--enlace" href="https://github.com/MiloGodoy/Next-Practico">Repositorio <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </li>
+                <li class="project-3">
+                    <img class="project--img" src="./Images/todo-app.jpg" alt="Imagen del proyecto">
+                    <p class="project--name">Todo App</p>
+                    <p class="project--description">Proyecto: Aplicación de lista de tareas (to do app) en la cual se registran las tareas. Realizada en React. Se utilizan hooks, manipulación del DOM y manejo de componentes.</p>
+                    <span class="project--technology">Html</span>
+                    <span class="project--technology">CSS</span>
+                    <span class="project--technology">JavaScript</span>
+                    <span class="project--technology">React</span>
+                    <div>
+                        <a class="project--enlace" href="https://milogodoy.github.io/todoApp/">Ver aquí</a>
+                        <a class="project--enlace" href="https://github.com/MiloGodoy/todoApp">Repositorio <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </li>
+            </div>
+            <div>
+                <li>
+                    <img class="project--img" src="./Images/wordle-app" alt="Imagen del proyecto">
+                    <p class="project--name">Wordle App</p>
+                    <p class="project--description">Proyecto: Juego online Wordle, en el cual, se debe adivinar la palabra oculta, se van cambiando los colores al acertar las letras. La app fue desarrollada en JavaScript. Se utilizó HTML y CSS</p>
+                    <span class="project--technology">Html</span>
+                    <span class="project--technology">CSS</span>
+                    <span class="project--technology">JavaScript</span>
+                    
+                    <div>
+                        <a class="project--enlace" href="https://milogodoy.github.io/wordle/">Ver aquí</a>
+                        <a class="project--enlace" href="https://github.com/MiloGodoy/Batatabit">Repositorio <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <img class="project--img" src="./Images/batatabit-logo.jpeg" alt="Imagen del proyecto">
+                    <p class="project--name">Batatabit Crypto</p>
+                    <p class="project--description">Proyecto: Visualizador de cotización de criptomonedas y venta de servicios. Está realizada en HTML y CSS</p>
+                    <span class="project--technology">Html</span>
+                    <span class="project--technology">CSS</span>
+                    
+                    <div class="project--img_enlaces">
+                        <a class="project--enlace" href="https://milogodoy.github.io/Batatabit/">Ver aquí</a>
+                        <a class="project--enlace" href="https://github.com/MiloGodoy/Batatabit">Repositorio <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </li>
+                <li>
+                    <img class="project--img" src="./Images/cool-restaurant.jpeg" alt="Imagen del proyecto">
+                    <p class="project--name">Cool Restaurant</p>
+                    <p class="project--description">Proyecto: Visualización del menú de un restaurante. Se muestran los diferentes platos y servicios. Se utiliza HTML y CSS</p>
+                    <span class="project--technology">Html</span>
+                    <span class="project--technology">CSS</span>
+                    
+                    <div>
+                        <a class="project--enlace" href="https://milogodoy.github.io/cool-restaurant/">Ver aquí</a>
+                        <a class="project--enlace" href="https://github.com/MiloGodoy/cool-restaurant">Repositorio <i class="fa-brands fa-github"></i></a>
+                    </div>
+                </li>
+            </div>
         </ul>
+        <footer>
+            <div class="footer--contact">
+                <p class="footer--text">Contacto: +595983757264</p> 
+                <p class="footer--text">email: milogodoy@hotmail.com</p> 
+            </div>
+        </footer>
     </main>
 </body>
 </html>

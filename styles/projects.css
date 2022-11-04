@@ -1,0 +1,57 @@
+.main--title {
+    padding-left: 120px;
+    font-size: 20px;
+    color: gold;
+ }
+
+.project-list div {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+.project-list li {
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 15px;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 250px;
+    max-width: 400px;
+}
+
+.project--name {
+    padding-left: 100px;
+    color: gold;
+    font-size: 18px;
+}
+
+.project--img {
+    min-width: 250px;
+    max-width: 400px;
+    padding: 20px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.project--description {
+    padding: 10px;
+    width: 350px;
+}
+
+.project--technology {
+    padding: 15px;
+    font-size: 16px;
+    color: silver;
+}
+
+.project--enlace {
+    padding-left: 50px;
+   align-items: center;
+}
+
+footer {
+    padding: 3px;
+}

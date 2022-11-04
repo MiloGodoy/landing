@@ -1,0 +1,22 @@
+.main--title {
+    display: flex;
+    justify-content: center;
+    padding-right: 180px;
+}
+
+.project--list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 930px;
+    margin: auto;
+    justify-content: center;
+}
+
+.project--list li {
+    justify-content: center;
+}
+
+.project--img_enlaces {
+    padding-top: 50px;
+}
+
